@@ -7,7 +7,7 @@ export const projects:TypeProject[] = [
         disAdvantages : null,
         gitHubLink : null,
         previewLink : "https://smartcardio.ru/",
-        technologys : ["Next" , "TypeScript", "React Hook Form", "RTK", "FSD", "TailwindCss"],
+        technologys : ["Next" , "TypeScript", "React Hook Form", "RTK", "FSD", "TailwindCss", "dynamic(lazy)"],
         ImageSrc : "/images/project1.png"
     },
     {
@@ -17,24 +17,24 @@ export const projects:TypeProject[] = [
         gitHubLink : null,
         ImageSrc : "/images/project2.png",
         previewLink : "https://t.me/ConnectexBot",
-        technologys : ["React", "JavaScript", "React Hook Form", "RTK", "React Router V6"]
+        technologys : ["React", "JavaScript", "React Hook Form", "RTK", "React Router V6", "React lazy"]
     },
     {
         title : "Pet Project 2",
         advantages : null,
-        disAdvantages : ["Frontend only, после создания портфолио, оно сохраняется в редаксе, но на сервере нет."],
+        disAdvantages : ["Frontend only, после создания портфолио / регистрации, оно сохраняется в редаксе, но на сервере нет."],
         gitHubLink : "https://github.com/SecondNiceee/portfoliosSaitTwo1",
         ImageSrc : "/images/project3.png",
         previewLink : "https://portfolios-sait-two1.vercel.app/",
-        technologys : ["React", "Ts", "FSD", "RTK", "React Hook Form", "SCSS", "Router V6"]
+        technologys : ["React", "Ts", "FSD", "RTK", "React Hook Form", "SCSS", "Router V6", "React lazy"]
     },
     {
         title : "Pet Project 1",
-        advantages : null,
-        disAdvantages : ["Frontend only, после создания портфолио, оно сохраняется в редаксе, но на сервере нет."],
+        advantages : ["Много фильтров", "юзеры приходят с сервера"],
+        disAdvantages : ["Frontend only, после создания юзера, он сохраняется в редаксе, но на сервере нет."],
         gitHubLink : "https://github.com/SecondNiceee/NickSaitOne",
         ImageSrc : "/images/project4.png",
         previewLink : "https://nick-sait-one.vercel.app/",
-        technologys : ["React", "Ts", "FSD", "RTK", "RHK", "TailwindCss", "RouterV6"]
+        technologys : ["React", "Ts", "FSD", "RTK", "RHK", "TailwindCss", "RouterV6", "React lazy"]
     }
 ]
