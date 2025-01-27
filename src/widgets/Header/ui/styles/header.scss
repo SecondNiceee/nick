@@ -1,0 +1,10 @@
+.logo{
+    @apply flex items-center gap-[6px];
+
+    .logo-text{
+        @apply text-h2 text-white font-bold;
+    }
+    @media (max-width:576px) {
+        zoom: 0.7;
+    }
+}
