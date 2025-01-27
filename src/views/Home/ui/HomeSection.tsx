@@ -3,14 +3,14 @@ import React from 'react';
 
 const HomeSection = () => {
     return (
-        <section className='md:py-[180px] sm:py-[100px] py-[60px] relative'>
+        <section id='home' className='md:py-[180px] sm:py-[100px] py-[60px] relative'>
             <div className="container flex flex-col sm:gap-[39px] gap-[20px] items-center relative z-[20]">
                 <div className='flex flex-col items-center '>
                     <h1 className='text-title font-bold'>My Portfolio</h1>
                     <h1 className='text-title font-bold'>(Nick)</h1>
                 </div>
                 <button className='md:py-[18px] py-[15px] w-fit md:px-[60px] px-[30px] bg-[#252432] rounded-[10px]'>
-                    <p className='text-p font-bold'>Go to posts!</p>
+                    <p className='text-p font-bold'>Go to projects!</p>
                 </button>
 
 
