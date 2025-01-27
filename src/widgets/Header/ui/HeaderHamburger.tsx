@@ -9,7 +9,7 @@ const HeaderHamburger = () => {
     return (    
         <>
             <div onClick={() => setOpen((value) => (!value))} className='block md:hidden h-fit'>
-                <Hamburger  toggled={isOpen}/>
+                <Hamburger color='white'  toggled={isOpen}/>
             </div>
             <HeaderMenu isOpen = {isOpen} />
         </>
