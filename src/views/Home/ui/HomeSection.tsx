@@ -10,6 +10,7 @@ const HomeSection = () => {
                 <div className='flex flex-col items-center '>
                     <h1 className='text-title font-bold'>My Portfolio</h1>
                     <h1 className='text-title font-bold'>(Nick)</h1>
+                    <h1 className='text-3xl font-bold'>Full-stack developer</h1>
                 </div>
                 <HeaderButton />
             </div>

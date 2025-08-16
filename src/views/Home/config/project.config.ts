@@ -2,10 +2,19 @@ import { TypeProject } from "../model/TypeProject";
 
 export const projects:TypeProject[] = [
     {
+        title : "Телеателье",
+        advantages : ["Next.js" , "Next Api handlers", "Мой дизайн"],
+        disAdvantages : ["Использовал cursor, не знаю минус ли"],
+        ImageSrc : "/images/tv-atelie.png",
+        gitHubLink : "https://github.com/SecondNiceee/tv-sait",
+        previewLink : "https://tv-atelie.vercel.app/",
+        technologys : ["Next.js", "Tailwind", "Typescript", "Nginx, сам деплойнул"]
+    },
+    {
         title : "Smartcardio",
         advantages : ["Next.js", "SSR", "SSG"],
         disAdvantages : null,
-        gitHubLink : "https://github.com/SecondNiceee/alsoSmartcardio",
+        gitHubLink : "https://github.com/SecondNiceee/smartcardio",
         previewLink : "https://smartcardio.ru/",
         technologys : ["Next" , "TypeScript", "React Hook Form", "RTK", "TailwindCss", "dynamic(lazy)"],
         ImageSrc : "/images/project1.png"
