@@ -8,7 +8,8 @@ export const projects:TypeProject[] = [
         ImageSrc : "/images/tv-atelie.png",
         gitHubLink : "https://github.com/SecondNiceee/tv-sait",
         previewLink : "https://tv-atelie.vercel.app/",
-        technologys : ["Next.js", "Tailwind", "Typescript", "Nginx, сам деплойнул"]
+        technologys : ["Next.js", "Tailwind", "Typescript", "Nginx, сам деплойнул"],
+        isCommerarce : true
     },
     {
         title : "Smartcardio",
@@ -17,7 +18,8 @@ export const projects:TypeProject[] = [
         gitHubLink : "https://github.com/SecondNiceee/smartcardio",
         previewLink : "https://smartcardio.ru/",
         technologys : ["Next" , "TypeScript", "React Hook Form", "RTK", "TailwindCss", "dynamic(lazy)"],
-        ImageSrc : "/images/project1.png"
+        ImageSrc : "/images/project1.png",
+        isCommerarce : true
     },
     {
         title : "Connect",
@@ -26,7 +28,8 @@ export const projects:TypeProject[] = [
         gitHubLink : "https://github.com/SecondNiceee/Jocker",
         ImageSrc : "/images/project2.png",
         previewLink : "https://t.me/ConnectexBot",
-        technologys : ["React", "JavaScript", "React Hook Form", "RTK", "React Router V6", "React lazy"]
+        technologys : ["React", "JavaScript", "React Hook Form", "RTK", "React Router V6", "React lazy"],
+        isCommerarce : true
     },
     {
         title : "Pet Project 2",
@@ -35,7 +38,8 @@ export const projects:TypeProject[] = [
         gitHubLink : "https://github.com/SecondNiceee/portfoliosSaitTwo1",
         ImageSrc : "/images/project3.png",
         previewLink : "https://portfolios-sait-two1.vercel.app/",
-        technologys : ["React", "Ts", "RTK", "React Hook Form", "SCSS", "Router V6", "React lazy"]
+        technologys : ["React", "Ts", "RTK", "React Hook Form", "SCSS", "Router V6", "React lazy"],
+        isCommerarce : false
     },
     {
         title : "Pet Project 1",
@@ -44,7 +48,8 @@ export const projects:TypeProject[] = [
         gitHubLink : "https://github.com/SecondNiceee/NickSaitOne",
         ImageSrc : "/images/project4.png",
         previewLink : "https://nick-sait-one.vercel.app/",
-        technologys : ["React", "Ts", "RTK", "RHK", "TailwindCss", "RouterV6", "React lazy"]
+        technologys : ["React", "Ts", "RTK", "RHK", "TailwindCss", "RouterV6", "React lazy"],
+        isCommerarce : false
     },
     {
         title : "Promocode Controller",
@@ -53,7 +58,8 @@ export const projects:TypeProject[] = [
         gitHubLink : {backend : "https://github.com/SecondNiceee/promocode-backend", frontend : "https://github.com/SecondNiceee/promocode-frontend"},
         ImageSrc : "/images/promo-front.png",
         previewLink : "https://partner.smartcardio.ru/",
-        technologys : ["Next", "Ts", "Tailwind", "Zoostand"]
+        technologys : ["Next", "Ts", "Tailwind", "Zoostand"],
+        isCommerarce : true
     },
     {
         title : "Redux Cashing",
@@ -62,6 +68,7 @@ export const projects:TypeProject[] = [
         gitHubLink : "https://github.com/SecondNiceee/projectThree",
         ImageSrc : "/images/project-three.png",
         previewLink : "https://project-three-rho-topaz.vercel.app/",
-        technologys : ["React", "Vite", "Redux toolkit", "Tailwind"]
+        technologys : ["React", "Vite", "Redux toolkit", "Tailwind"],
+        isCommerarce : false
     }
 ]

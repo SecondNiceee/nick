@@ -6,5 +6,6 @@ export type TypeProject = {
     gitHubLink : TGitHubLink,
     advantages : string[] | null,
     disAdvantages : string[] | null,
-    ImageSrc : string
+    ImageSrc : string,
+    isCommerarce : boolean
 }

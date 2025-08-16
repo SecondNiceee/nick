@@ -9,6 +9,21 @@ interface IProjectCharacteristic{
 const ProjectCharacteristics:FC<IProjectCharacteristic> = ({project}) => {
     return (
         <div className='w-[100%] flex flex-col gap-1 md:gap-[15px]'>
+
+            {project.isCommerarce ? 
+            <div className='flex py-1 px-2 rounded-xl  bg-green-500 self-start'>
+                <p className='text-2xl'>
+                    Коммерческий
+                </p>
+            </div>
+            :
+            <div className='flex py-1 px-2 rounded-xl  bg-orange-400 self-start'>
+                <p className='text-2xl'>
+                    Пэт-проект
+                </p>
+            </div> 
+            }
+
             <p className='text-2xl'>
                 Стэк : {project.technologys.join(', ')}
             </p>
